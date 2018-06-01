@@ -66,6 +66,7 @@ RUN apt-get -y update && \
       bzip2 \
       libapache2-mod-auth-kerb \
       libapache2-mod-proxy-html \
+      telnet net-tools wget\
       git \
       nodejs \
       nodejs-legacy \
