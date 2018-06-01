@@ -1,6 +1,6 @@
 # Setup front-end
 frontend:
-  image: konradkleine/docker-registry-frontend:v2
+  image: dh.ics.perm.ru/konradkleine/docker-registry-frontend:v2
   #build: ../
   links:
     - registry:registry
